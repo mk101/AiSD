@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(AiSD)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 if (${MSVC})
     MESSAGE("-- Build by MSVC")
@@ -13,3 +13,4 @@ endif ()
 
 add_subdirectory(task1)
 add_subdirectory(task2)
+add_subdirectory(task3)
